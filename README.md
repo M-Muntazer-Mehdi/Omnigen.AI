@@ -8,7 +8,7 @@
 [![Prisma](https://img.shields.io/badge/Prisma-v5.0.0-lightgrey.svg)](https://prisma.io/)
 [![Stripe](https://img.shields.io/badge/Stripe-API%20v12.16.0-green.svg)](https://stripe.com/)
 
-Omnigen.AI stands as a sophisticated, extensible Software-as-a-Service (SaaS) platform, meticulously engineered to leverage the forefront of artificial intelligence. Built upon a robust foundation of Next.js, OpenAI, Replicate, Tailwind CSS, Prisma, and Stripe, our core mission is to empower individuals and businesses. We achieve this by democratizing access to powerful AI models, transforming complex AI processes into intuitive, accessible services for diverse creative and practical applications.
+Omnigen.AI stands as a sophisticated, extensible Software-as-a-Service (SaaS) platform, meticulously engineered to leverage the forefront of artificial intelligence. Built upon a robust foundation of Next.js, OpenAI, Replicate, Tailwind CSS, Prisma, and Stripe, our core mission is to empower individuals and businesses. We achieve this by democratizing access to powerful AI models, transforming complex AI processes into intuitive, accessible services for diverse creative and practical applications
 
 ## Core Capabilities
 
