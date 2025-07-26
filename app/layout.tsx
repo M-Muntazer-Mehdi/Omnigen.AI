@@ -10,7 +10,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Prometheus AI",
+  title: "Omnigen.AI",
   description: "An AI platform.",
 };
 

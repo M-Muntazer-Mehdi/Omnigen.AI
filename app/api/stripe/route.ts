@@ -43,8 +43,8 @@ export async function GET() {
           price_data: {
             currency: "USD",
             product_data: {
-              name: "Prometheus Pro",
-              description: "Prometheus Pro",
+              name: "Omnigen.AI Pro",
+              description: "Omnigen.AI Pro",
             },
             unit_amount: 2000,
             recurring: {

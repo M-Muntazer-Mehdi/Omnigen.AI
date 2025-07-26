@@ -13,6 +13,11 @@ body,
     --background: 0 0% 100%;
     --foreground: 222.2 84% 4.9%;
 
+    --color-background: #f8f9fa;
+    --color-foreground: #1a1a1a;
+    --color-accent: #0070f3;
+    --color-muted: #e5e7eb;
+
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
@@ -80,5 +85,8 @@ body,
   }
   body {
     @apply bg-background text-foreground;
+      background-color: var(--color-background);
+      color: var(--color-foreground);
+      font-family: 'Inter', sans-serif;
   }
 }
