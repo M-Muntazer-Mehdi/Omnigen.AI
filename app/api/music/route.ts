@@ -4,6 +4,10 @@
 // preventing Next.js from trying to statically optimize it during build,
 // which often causes issues with authentication contexts.
 export const dynamic = 'force-dynamic';
+// Explicitly set the runtime for this API route to Node.js.
+// This can help resolve issues with Clerk's authentication context during build
+// if the environment is defaulting to Edge Runtime where some Node.js APIs are not supported.
+export const runtime = 'nodejs';
 
 // Import necessary modules for the API route
 import { auth } from "@clerk/nextjs"; // Using @clerk/nextjs for server-side auth in App Router
