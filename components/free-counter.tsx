@@ -40,9 +40,13 @@ export const FreeCounter: FC<FreeCounterProps> = ({ apiLimitCount = 0, isPro = f
             </p>
             <Progress className="h-3" value={(apiLimitCount / MAX_FREE_COUNTS) * 100} />
           </div>
-          <Button variant="premium" className="w-full" onClick={proModal.onOpen}>
-            Upgrade <Zap className="w-4 h-4 ml-2 fill-white" />
-          </Button>
+      <Button
+        variant="premium"
+        className="w-full bg-gradient-radial from-gray-500 via-gray-900 to-black text-white" // Radial gradient added here
+        onClick={proModal.onOpen}
+      >
+        Upgrade <Zap className="w-4 h-4 ml-2 fill-white" />
+      </Button>
         </CardContent>
       </Card>
     </div>
