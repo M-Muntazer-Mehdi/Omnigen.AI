@@ -28,9 +28,15 @@ export const SubscriptionButton: FC<SubscriptionButtonProps> = ({ isPro = false 
   };
 
   return (
-    <Button disabled={loading} variant={isPro ? "default" : "premium"} onClick={onClick}>
+    <Button
+      disabled={loading}
+      variant={isPro ? "default" : "premium"}
+      onClick={onClick}
+      // Apply gradient only when not Pro
+      className={!isPro ? "bg-gradient-radial from-gray-500 via-gray-900 to-black text-white" : ""}
+    >
       {isPro ? "Manage Subscription" : "Upgrade to Pro"}
       {!isPro && <Zap className="w-4 h-4 ml-2 fill-white" />}
-    </Button>
+</Button>
   );
 };
